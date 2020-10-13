@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="351.0" prefWidth="106.0" stylesheets="@../../resources/dark-theme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXButton prefHeight="400.0" prefWidth="150.0" text="Add Member" />
+      <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="150.0" text="Add Book" />
+      <JFXButton layoutX="10.0" layoutY="81.0" prefHeight="400.0" prefWidth="150.0" text="View Members" />
+      <JFXButton layoutX="10.0" layoutY="152.0" prefHeight="400.0" prefWidth="150.0" text="View Books" />
+      <JFXButton layoutX="10.0" layoutY="223.0" prefHeight="400.0" prefWidth="150.0" text="Settings" />
+   </children>
+</VBox>

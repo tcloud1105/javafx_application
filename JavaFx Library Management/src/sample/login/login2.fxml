@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="277.0" prefWidth="272.0" stylesheets="@../resources/dark-theme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.login.Login">
+   <children>
+      <JFXTextField fx:id="username" labelFloat="true" layoutX="22.0" layoutY="74.0" prefHeight="25.0" prefWidth="229.0" promptText="username" />
+      <JFXPasswordField fx:id="password" labelFloat="true" layoutX="22.0" layoutY="140.0" prefHeight="25.0" prefWidth="229.0" promptText="Password" />
+      <JFXButton layoutX="56.0" layoutY="223.0" onAction="#handleLoginButtonAction" prefHeight="25.0" prefWidth="60.0" styleClass="login-button" text="Login" />
+      <JFXButton layoutX="144.0" layoutY="223.0" onAction="#handleCancelButtonAction" prefHeight="25.0" prefWidth="60.0" styleClass="login-button" text="Cancel" />
+   </children>
+</AnchorPane>
